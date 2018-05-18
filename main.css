@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(ok.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-positon: center;
+}
+
+.main-nav{
+    float: right;
+    list-style: none;
+
+}
+
+.main-nav li{
+    display: inline-block;
+}
+
+.main-nav li a{
+    color: #FFF;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+}
+.main-nav li.active a{
+    border: 1px solid white
+
+}
+.main-nav li a:hover{
+    border: 1px solid white;
+}
+.logo img{
+    width: 150px;
+    height: auto;
+    float: left;
+}
+
+.row{
+   max-width: 1200px;
+   margin: auto;
+}
+
+.title{
+    position: absolute;
+    width: 1200px;
+    margin-left: 0px;
+    margin-top: 0px
+}
+
+.button{
+    margin-top: 30px;
+    margin-left: 440px;
+}
+
+h1{
+    color: #FFF;
+    text-transform: Sentnce case;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 275px;  
+}
+
+.btn{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 30px;
+    margin-right: 5px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.btn-1{
+    background-color: #CA2E55;
+    font-family: "Roboto", sans-serif;
+}
+
+.btn-2{
+    font-family: "Roboto", sans-serif;
+}
+
+.btn-2:hover{
+    background-color: #ca2e55;
+    transition: all 0.5s ease-in;
+}
